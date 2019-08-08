@@ -2369,7 +2369,7 @@ sysctl -w vm.overcommit_memory=2
    </para>
 ____________________________________________________________________________-->
    <para>
-    在 Linux 2.6 及其后的版本中，可以修改内核的行为，这样它将不会<quote>过量使用</quote>内存。尽管此设置不会阻止<ulink url="http://lwn.net/Articles/104179/">OOM 杀手</ulink>被调用，但它可以显著地降低其可能性并且将因此得到更鲁棒的系统行为。这可以通过用<command>sysctl</command>选择严格的过量使用模式来实现：
+    在 Linux 2.6 及其后的版本中，可以修改内核的行为，这样它将不会<quote>过量使用</quote>内存。尽管此设置不会阻止<ulink url="http://lwn.net/Articles/104179/">OOM 杀手</ulink>被调用，但它可以显著地降低其可能性并且将因此得到更强大的系统性能。这可以通过用<command>sysctl</command>选择严格的过量使用模式来实现：
 <programlisting>
 sysctl -w vm.overcommit_memory=2
 </programlisting>
