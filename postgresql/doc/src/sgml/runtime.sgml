@@ -1704,7 +1704,7 @@ ____________________________________________________________________________-->
        </para>
 ____________________________________________________________________________-->
        <para>
-        古老的发型可能没有<command>sysctl</command>程序，但是可以通过操纵<filename>/proc</filename>文件系统来得到等效的更改：
+        古老的发行版可能没有<command>sysctl</command>程序，但是可以通过操纵<filename>/proc</filename>文件系统来得到等效的更改：
 <screen>
 <prompt>$</prompt> <userinput>echo 17179869184 &gt;/proc/sys/kernel/shmmax</userinput>
 <prompt>$</prompt> <userinput>echo 4194304 &gt;/proc/sys/kernel/shmall</userinput>
